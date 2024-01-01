@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;500;800;900&display=swap');
+
+body{
+    font-family: "roboto", sans-serif;
+    line-height: 1.8;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 800;
+}
+
+a{
+    text-decoration: none;
+    transition: 0.4s;
+    font-weight: 800px;
+}
+#home ,
+#video {
+    background-image: url(website.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+section{
+    padding: 80px 0;
+    z-index: 2;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(39, 44, 45, 0.7), rgba(17, 17, 18, 0.7));
+    z-index: -1;
+} 
+.navbarcolor{
+    background-image: linear-gradient(rgba(255, 255, 255,1), rgba(251, 251, 255,1));
+    z-index: 3;
+}
+.btn-main{
+    padding: 14px 22px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(251, 251, 255, 0.7));
+    border-radius: 100px;
+    border: none;
+    font-weight: 600;
+    color: black;
+    transition: 0.4s;
+}
+.btn:hover{
+    transition: .4s;
+    color: #fff;
+    transform: translateY(-5px);
+}
+.divider{
+    height: 4px;
+    width: 70px;
+    background-image: linear-gradient(to left,  rgb(13, 6, 83), rgb(17, 13, 229));    
+}
+.divider1{
+    height: 4px;
+    width: 70px;
+    background-image: linear-gradient(to left,  rgb(13, 6, 83), rgb(17, 13, 229));    
+
+}
+.about .about-img .icon-box{
+    color: #fff;
+    background-image: linear-gradient(to right, rgba(39, 44, 45, 1), rgba(17, 17, 18, 1));
+
+    border-radius: 100px;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 34px;
+    position: absolute;
+    bottom: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.about .about-img{
+    position: relative;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active{
+    background: -webkit-linear-gradient( rgb(1, 1, 1), rgb(0, 0, 0));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+form .form-control{
+    height: 54px;
+    border-radius: 0;
+    background-color: transparent;
+}
+form .form-control::placeholder{
+    color:white;
+}
+.form-control:focus{
+    color:white;
+    background-color: transparent;
+}
+.infobtn{
+    background-image: linear-gradient(to right, rgba(39, 44, 45, 1), rgba(17, 17, 18, 1));
+    color: white;
+}
+@media(max-width:500px){
+    #home{
+        margin-top: 60px;
+        height: 50vh;
+    }
+}
+@media(max-width:1100px){
+    #home{
+        height: 65vh;
+    }
+}
