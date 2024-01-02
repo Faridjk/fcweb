@@ -103,7 +103,7 @@ form .form-control::placeholder{
     background-color: transparent;
 }
 .infobtn{
-    background-image: linear-gradient(to right, rgba(39, 44, 45, 1), rgba(17, 17, 18, 1));
+    background-image: linear-gradient(to right, rgb(248, 149, 1), rgb(243, 160, 5));
     color: white;
 }
 .navbarico{
