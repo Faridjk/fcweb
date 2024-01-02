@@ -107,6 +107,23 @@ form .form-control::placeholder{
     background-image: linear-gradient(to right, rgba(39, 44, 45, 1), rgba(17, 17, 18, 1));
     color: white;
 }
+.navbarico{
+    background-image: url(navbar.ico);
+    height: 37px;
+    width: 37px;
+    background-size: cover;
+}
+.navbarico2{
+    background-image: url(close.png);
+    height: 37px;
+    width: 37px;
+    background-size: cover;
+}
+.pointer:hover{
+    cursor: pointer;
+    scale: 1.1;
+    transition: .4s;
+}
 @media(max-width:500px){
     #home{
         margin-top: 60px;
