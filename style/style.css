@@ -106,7 +106,7 @@ form .form-control::placeholder{
     background-image: linear-gradient(to right, rgb(248, 149, 1), rgb(243, 160, 5));
     color: white;
 }
-.navbarico{
+/* .navbarico{
     background-image: url(navbar.ico);
     height: 37px;
     width: 37px;
@@ -117,7 +117,7 @@ form .form-control::placeholder{
     height: 37px;
     width: 37px;
     background-size: cover;
-}
+} */
 .pointer{
     color: black;
 }
